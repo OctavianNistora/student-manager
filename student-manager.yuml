@@ -1,0 +1,8 @@
+[Student]-(view grades),(view grades)>(login)
+[Student]-(view uni details),(view uni details)>(login)
+[teacher]-(add grades),(add grades)>(login)
+[teacher]-(view students),(view students)>(login)
+[teacher]-(add student),(add student)>(login)
+(display error students added already)>(add student)
+[admin]-(add subject),[admin]-(create account), (create account)<(acc already exits)
+(login)> (verify creds)
